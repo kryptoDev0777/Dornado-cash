@@ -43,21 +43,7 @@
     "idb": "^6.0.0",
     "jspdf": "^1.5.3",
     "jszip": "^3.5.0",
-    "lodash": "^4.17.21",
-    "node-fetch": "^2.6.1",
-    "numbro": "^2.3.2",
-    "nuxt": "2.14.7",
-    "nuxt-buefy": "^0.4.10",
-    "nuxt-web3-provider": "0.1.4",
-    "push-dir": "^0.4.1",
-    "recursive-fs": "^2.1.0",
-    "snarkjs": "git+https://github.com/staccDOTsol/snarkjs",
-    "v-idle": "^0.2.0",
-    "vue-clipboard2": "^0.3.1",
-    "vue-i18n": "^8.15.4",
-    "vuex-persistedstate": "^2.7.0",
-    "web3": "1.5.2",
-    "websnark": "git+https://github.com/tornadocash-community/websnark"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.1.2",
