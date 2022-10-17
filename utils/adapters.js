@@ -26,6 +26,8 @@ export function formatEvents(events, type) {
   }
 }
 
+
+
 export function formatEvent(event, type) {
   if (type === eventsType.DEPOSIT) {
     return {
