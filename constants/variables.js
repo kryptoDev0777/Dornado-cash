@@ -3,7 +3,6 @@ import networkConfig from '@/networkConfig'
 export const CHAIN_IDS = Object.keys(networkConfig)
 
 export const NETWORKS = CHAIN_IDS.map((i) => i.replace('netId', ''))
-
 export const LOCALES_NAMES = {
   en: 'en-US',
   es: 'es-ES',
@@ -27,7 +26,6 @@ export const eventsType = {
 export const CONTRACT_INSTANCES = ['0.1', '1', '10', '100', '1000']
 
 export const INDEX_DB_ERROR = 'A mutation operation was attempted on a database that did not allow mutations.'
-
 export const ACTION = Object.freeze({
   WITHDRAW: 'WITHDRAW',
   WITHDRAW_WITH_EXTRA: 'WITHDRAW_WITH_EXTRA',
