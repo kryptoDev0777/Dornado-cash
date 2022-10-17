@@ -1,7 +1,6 @@
 import networkConfig from '@/networkConfig'
 
 export const CHAIN_IDS = Object.keys(networkConfig)
-
 export const NETWORKS = CHAIN_IDS.map((i) => i.replace('netId', ''))
 export const LOCALES_NAMES = {
   en: 'en-US',
