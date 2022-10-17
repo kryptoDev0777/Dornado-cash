@@ -32,6 +32,7 @@ import { mapActions, mapState, mapGetters } from 'vuex'
 export default {
   data() {
     return {
+    
       success: false,
       isApproveBtnAlreadyPressed: false,
       unlimitedValue: 'unlimited'
