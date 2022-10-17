@@ -12,7 +12,6 @@
     >
       <i18n path="binanceInternalTxsNotification" />
     </b-notification>
-
     <b-notification
       :active="isActiveNotification.third"
       class="main-notification"
@@ -28,7 +27,6 @@
         </template>
       </i18n>
     </b-notification>
-
     <b-notification
       :active="isActiveNotification.first"
       class="main-notification"
@@ -49,7 +47,6 @@
         </template>
       </i18n>
     </b-notification>
-
     <b-notification
       v-if="isEthLink"
       :active="isActiveNotification.ethLink"
