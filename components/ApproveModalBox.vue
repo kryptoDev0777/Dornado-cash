@@ -4,6 +4,8 @@
       <div class="box-modal-title">{{ $t('approvalIsRequired') }}</div>
       <button type="button" class="delete" @click="$emit('close')" />
     </header>
+    
+    
     <div class="note">
       {{ $t('inOrderToUse', { currency: selectedCurrency }) }}
     </div>
