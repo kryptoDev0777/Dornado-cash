@@ -5,3 +5,6 @@ const routerScrollBehavior = (to, from, savedPosition) => {
   return savedPosition || { x: 0, y: 0 }
 }
 export default routerScrollBehavior
+
+
+
