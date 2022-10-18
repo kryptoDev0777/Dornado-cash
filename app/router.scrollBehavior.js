@@ -7,3 +7,6 @@ const routerScrollBehavior = (to, from, savedPosition) => {
 }
 
 export default routerScrollBehavior
+
+
+
