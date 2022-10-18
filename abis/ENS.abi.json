@@ -1,14 +1,6 @@
 [
     {
-        "constant": true,
-        "inputs": [
-            {
-                "internalType": "bytes4",
-                "name": "interfaceID",
-                "type": "bytes4"
-            }
-        ],
-        "name": "supportsInterface",
+        "constaace",
         "outputs": [
             {
                 "internalType": "bool",
