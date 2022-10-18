@@ -5,12 +5,7 @@
       :active="isActiveNotification.binanceInternal"
       class="main-notification"
       type="is-warning"
-      icon-pack="icon"
-      has-icon
-      :aria-close-label="$t('closeNotification')"
-      @close="disableNotification({ key: 'binanceInternal' })"
-    >
-      <i18n path="binanceInternalTxsNotification" />
+     rnalTxsNotification" />
     </b-notification>
     <b-notification
       :active="isActiveNotification.third"
